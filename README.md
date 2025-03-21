@@ -5,7 +5,7 @@ House Price Prediction using Linear Regression
 This project focuses on predicting house sale prices using a linear regression model. The model is trained on the Ames Housing dataset, which contains various features related to residential homes. The goal is to build a model that can accurately estimate house prices based on these features.
 
 2.Dataset
-The dataset used in this project is the Ames Housing dataset, obtained from Kaggle: [Insert Kaggle Dataset Link Here]
+The dataset used in this project is the Ames Housing dataset, obtained from Kaggle  Dataset : - https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data
 
 3.Libraries Used
 
@@ -17,17 +17,17 @@ The dataset used in this project is the Ames Housing dataset, obtained from Kagg
 
 4.Data Preprocessing
 
-* Loaded the dataset using `pandas`.
-* Selected relevant features: `LotArea`, `YearBuilt`, `FullBath`, `RoofStyle`, `KitchenAbvGr`, `BedroomAbvGr`, `TotRmsAbvGrd`.
-* Encoded the `RoofStyle` categorical feature into numerical values.
-* Removed outliers from numerical features and the target variable (`SalePrice`) using the Interquartile Range (IQR) method.
+* Loaded the dataset using "pandas".
+* Selected relevant features: "lotarea", "yearbuilt", "fullbath", "roofstyle", "kitchenabvgr", "bedrooabvgr", "totroomsabvgr".
+* Encoded the "roofstyle"categorical feature into numerical values.
+* Removed outliers from numerical features and the target variable (salesprice) using the Interquartile Range (IQR) method.
 * Renamed columns for readability.
 
 5. Model Training
 
-* Split the data into training and testing sets using `train_test_split`.
-* Standardized the features using `StandardScaler`.
-* Trained a linear regression model using `LinearRegression`.
+* Split the data into training and testing sets using "train test split"
+* Standardized the features using "standard scaler"
+* Trained a linear regression model using "linear regression".
 
 ## Model Evaluation
 
